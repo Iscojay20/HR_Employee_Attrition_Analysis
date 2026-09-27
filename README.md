@@ -110,6 +110,10 @@ Based on the combined findings, areas for further investigation include:
 - Reviewing compensation and benefits across high-attrition roles.
 - Further investigating promotion and career-development patterns.
 - Using additional employee-level analysis to understand the factors associated with turnover.
+  ## Project Files
+
+- [Excel Workbook](Excel%20Workbook%28HR_Attrition_Analysis%29.xlsx) — cleaned data, pivot tables, and grouping formulas
+- [Power BI Dashboard](Power%20BI%28HR_Attrition_Dashboard%29.pbix) — full four-page interactive dashboard
 
 ## Conclusion
 
