@@ -20,6 +20,12 @@ The objective of this project is to understand employee attrition patterns and i
 
 The dataset contains information on employee demographics, job roles, compensation, performance, workplace satisfaction, and attrition status.
 
+![Raw Data](Raw_data.png)
+
+## Dashboard Preview
+
+![Dashboard Overview](Dashboard.png)
+
 ## Data Cleaning & Preparation
 
 The dataset was reviewed and prepared before analysis. The cleaning process included checking for:
@@ -29,7 +35,12 @@ The dataset was reviewed and prepared before analysis. The cleaning process incl
 - Inconsistent values
 - Data types and formatting
 - Percentage and numerical fields
-- Grouping of age and distance-from-home values for analysis
+- Grouping of age, distance-from-home, tenure-related (Total Working Years, Years at Company, Years in Current Role, Years Since Last Promotion, Years With Current Manager), and salary hike values for analysis
+
+![Transformed Data](Transformed_data.png)
+![Column Groups](Column_Groups.png)
+![Column Groups Continued](Column_Groups_2.png)
+![Column Groups Continued](Column_Groups_3.png)
 
 ## Dashboard
 
@@ -48,11 +59,15 @@ The Power BI dashboard provides an executive-level overview of employee attritio
 
 This report examines attrition across age group, marital status, gender, and distance from home.
 
+![Demographics Dashboard](Employee_Demographics.png)
+
 Key observations include higher observed attrition among younger employees, single employees, employees living farther from work, and a slightly higher rate among male employees.
 
 ### 2. Workforce Structure & Attrition
 
 This report examines attrition across department, job role, years since last promotion, business travel, and overtime.
+
+![Workforce Structure Dashboard](Workforce_Structure.png)
 
 The analysis shows considerable variation across workforce groups, with particularly high observed attrition among some sales roles, frequent travelers, and employees working overtime.
 
@@ -60,11 +75,15 @@ The analysis shows considerable variation across workforce groups, with particul
 
 This report examines attrition in relation to monthly income, stock option level, performance rating, and salary hike percentage.
 
+![Compensation Dashboard](Compensation_Performance.png)
+
 The analysis shows considerable variation in attrition across job roles and income levels, while performance ratings and salary hike groups show relatively smaller differences.
 
 ### 4. Workplace Satisfaction & Attrition
 
 This report examines attrition across environment satisfaction, relationship satisfaction, job satisfaction, work-life balance, job involvement, and training.
+
+![Workplace Satisfaction Dashboard](Workplace_Satisfaction.png)
 
 The analysis shows noticeable differences in observed attrition across several workplace satisfaction measures, particularly job involvement, environment satisfaction, and job satisfaction.
 
